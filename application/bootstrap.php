@@ -21,6 +21,4 @@
  * ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  */
-
-// Bootstrap application
-require dirname(dirname(__FILE__)) . 'bootstrap.php';
+echo "BOOTSTRAP";

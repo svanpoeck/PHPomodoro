@@ -21,4 +21,10 @@
  * ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  */
-echo "BOOTSTRAP";
+
+// {{{ Set paths
+define('APP_PATH', dirname('FILE')); // Path has no trailing slash
+define('CTL_PATH', APP_PATH . DIRECTORY_SEPARATOR . 'controller');
+define('MDL_PATH', APP_PATH . DIRECTORY_SEPARATOR . 'model');
+define('VIW_PATH', APP_PATH . DIRECTORY_SEPARATOR . 'view');
+// }}}

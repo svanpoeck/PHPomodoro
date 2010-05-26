@@ -23,4 +23,4 @@
  */
 
 // Bootstrap application
-require dirname(dirname(__FILE__)) . 'bootstrap.php';
+require dirname(dirname(__FILE__)) . DIRECTORY_SEPARATOR . 'bootstrap.php';
